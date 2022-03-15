@@ -4,8 +4,10 @@ function escuchar(event){
  event.preventDefault()
   event.preventDefault()
   console.log("hizo click")
+ let producto=document.getElementById("Producto").value
+ console.log (producto) 
  let edad=document.getElementById("Edad").value
- console.log (edad)
+ console.log (edad) 
  let cantidad=document.getElementById("Cantidad").value
  console.log (cantidad)
  let edad=Number(prompt("Edad"))
